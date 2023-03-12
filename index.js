@@ -1,23 +1,90 @@
 // for (let i = 1; i <= 5; i++) {
+//   console.log(`=> ${i} <=`);
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(`${i} × ${j} = ${i * j}`);
+//   }
+// }
+// =========================================LOOPS==========================
+// let sum = 0;
+// for (let i = 0; i <= 1000; i++) {
+//   sum += i;
+// }
+// const div = Math.floor(sum / 1234);
+// const mod = sum % 1234;
+// console.log(div > mod);
+
+// let sum = 0;
+// for (let i = 0; i <= 1000; i++) {
+//   sum += i;
+// }
+// const div = Math.floor(sum / 1234);
+// const mod = sum % 1234;
+// const result = div > mod ? 'true' : 'false';
+// console.log(result);
+
+// const result = Math.floor(sum / 1234);
+// const resultMod = sum % 1234;
+// console.log(resultMod);
+// console.log(sum);
+// console.log(result);
+
+// console.log(result);
+// console.log(sum);
+
+// let sum = 0;
+// for (let i = 0; i <= 10000000; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+
+// let start = 1;
+// let end = 100;
+// let result = 0;
+
+// for (let i = start; i <= end; i++) {
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   } else if (i % 2 === 0 && i % 4 !== 0) {
+//     result += i;
+//   } else if (i % 3 === 0) {
+//     result -= i;
+//   } else if (i % 4 === 0) {
+//     result *= i;
+//   }
+// }
+// let sum = 0;
+// for (let i = 0; i <= 1000; i++) {
+//   if (i % 2 === 1) {
+//     console.log('Found');
+//     sum += i;
+//     // console.log(i);
+//   }
+// }
+// if (sum * 5 > 5000) {
+//   console.log('Bigger');
+// } else {
+//   console.log('Smaller or equal');
+// }
+
+// const n = 7;
+// for (let i = 1; i <= n; i++) {
+//   sum += i.toString();
+// }
+// console.log(sum);
+
+// for (let i = 1; i <= 5; i++) {
 //   console.log('\n=>' + i + '<=\n\n');
 //   for (let j = 1; j <= 5; j++) {
 //     console.log(i + ' x ' + j + ' = ' + i * j);
 //   }
 // }
 
-// for (let i = 1; i <= 5; i++) {
-//   console.log(`\n=> ${i} <=\n`);
-//   for (let j = 1; j <= 5; j++) {
-//     const multiplyResult = j * i;
-//     console.log(`${i} x ${j} = ${multiplyResult}`);
-//   }
-// }
-
-const n = 7;
-let sum = 0;
-for (let i = 1; i <= n; i++) {
-  sum += 1;
-  console.log(String(sum));
+for (let i = 1; i <= 5; i++) {
+  console.log(`\n=> ${i} <=\n`);
+  for (let j = 1; j <= 10; j++) {
+    const multiplyResult = j * i;
+    console.log(`${i} x ${j} = ${multiplyResult}`);
+  }
 }
 
 // const m = 10;
