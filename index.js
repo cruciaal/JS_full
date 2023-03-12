@@ -1,10 +1,17 @@
 for (let i = 1; i <= 5; i++) {
-  console.log(`\n=> ${i} <=\n`);
+  console.log('\n=>' + i + '<=\n');
   for (let j = 1; j <= 5; j++) {
-    const multiplyResult = j * i;
-    console.log(`${i} x ${j} = ${multiplyResult}`);
+    console.log(i + ' x ' + j + ' = ' + i * j);
   }
 }
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log(`\n=> ${i} <=\n`);
+//   for (let j = 1; j <= 5; j++) {
+//     const multiplyResult = j * i;
+//     console.log(`${i} x ${j} = ${multiplyResult}`);
+//   }
+// }
 
 // const m = 10;
 // const n = 20;
