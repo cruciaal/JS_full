@@ -1,19 +1,3 @@
-function run() {
-  var a = 0;
-
-  if (a == 1) {
-    return c;
-  }
-
-  for (let i = 1; i < 10; i++) {
-    console.log(i);
-  }
-
-  return (d = a);
-}
-
-run();
-
 // for (let i = 1; i <= 5; i++) {
 //   console.log('\n=>' + i + '<=\n\n');
 //   for (let j = 1; j <= 5; j++) {
@@ -28,6 +12,13 @@ run();
 //     console.log(`${i} x ${j} = ${multiplyResult}`);
 //   }
 // }
+
+const n = 7;
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+  sum += 1;
+  console.log(String(sum));
+}
 
 // const m = 10;
 // const n = 20;
@@ -49,6 +40,15 @@ run();
 //   i++;
 // }
 // console.log('Result: ' + sum);
+
+// const n = 2;
+// let sum = 0;
+// let i = 0;
+// while (i <= n) {
+//   sum += i;
+//   i++;
+// }
+// console.log(sum);
 
 /* Этот код менять не нужно */
 // const defaultUserName = 'anonymus';
