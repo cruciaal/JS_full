@@ -1,9 +1,25 @@
-for (let i = 1; i <= 5; i++) {
-  console.log('\n=>' + i + '<=\n\n');
-  for (let j = 1; j <= 5; j++) {
-    console.log(i + ' x ' + j + ' = ' + i * j);
+function run() {
+  var a = 0;
+
+  if (a == 1) {
+    return c;
   }
+
+  for (let i = 1; i < 10; i++) {
+    console.log(i);
+  }
+
+  return (d = a);
 }
+
+run();
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log('\n=>' + i + '<=\n\n');
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(i + ' x ' + j + ' = ' + i * j);
+//   }
+// }
 
 // for (let i = 1; i <= 5; i++) {
 //   console.log(`\n=> ${i} <=\n`);
