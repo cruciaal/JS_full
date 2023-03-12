@@ -1,5 +1,5 @@
 for (let i = 1; i <= 5; i++) {
-  console.log(`=> ${i} <=`);
+  console.log(`\n=> ${i} <=\n`);
   for (let j = 1; j <= 5; j++) {
     const multiplyResult = j * i;
     console.log(`${i} x ${j} = ${multiplyResult}`);
