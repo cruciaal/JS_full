@@ -9,12 +9,34 @@
 //   const result = getEvenNumbers([1, 2, 3, 4]);
 //   expect(result).toEqual([2, 4]);
 // });
-import getSum, { getSquaredArray, getOddNumbers } from './calculator';
-
-it('should get squared numbers', () => {
-  const result = getSquaredArray([1, 2, 3]);
-  expect(result).toEqual([1, 4, 9]);
+import { calc } from './calculator';
+it('should check enter string', () => {
+  const result = calc(4);
+  expect(result).toEqual(null);
 });
+it('should check enter string', () => {
+  const result = calc('4 + 4');
+  expect(result).toEqual('8');
+});
+// import getSum, { getSquaredArray, getOddNumbers } from './calculator';
+// import { getMinSquaredNumber } from './getMinSquaredNumber';
+// it('should show minimum absolute number in square', () => {
+//   const result = getMinSquaredNumber([]);
+//   expect(result).toEqual(null);
+// });
+// it('should show minimum absolute number in square', () => {
+//   const secondResult = getMinSquaredNumber('string');
+//   expect(secondResult).toEqual(null);
+// });
+// it('should show minimum absolute number in square', () => {
+//   const secondResult = getMinSquaredNumber([-1, 4, 6, -11]);
+//   expect(secondResult).toEqual(1);
+// });
+
+// it('should get squared numbers', () => {
+//   const result = getSquaredArray([1, 2, 3]);
+//   expect(result).toEqual([1, 4, 9]);
+// });
 
 // it('should return only odd numbers', () => {
 //   const result = getOddNumbers([2, 3, 6, 5]);
@@ -26,12 +48,12 @@ it('should get squared numbers', () => {
 //   expect(result).toEqual([1, 3]);
 // });
 
-it('should return only odd numbers', () => {
-  const result = getOddNumbers([1, 2, 3]);
-  expect(result).toEqual([1, 3]);
-});
+// it('should return only odd numbers', () => {
+//   const result = getOddNumbers([1, 2, 3]);
+//   expect(result).toEqual([1, 3]);
+// });
 
-it('should get sum of numbers', () => {
-  const result = getSum(6, 4);
-  expect(result).toEqual(10);
-});
+// it('should get sum of numbers', () => {
+//   const result = getSum(6, 4);
+//   expect(result).toEqual(10);
+// });
