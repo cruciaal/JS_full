@@ -14,7 +14,6 @@
 //   return arr.map((el) => {
 //     const readyElement = el
 //       .toString()
-//       // .replace(/[a-zA-Z]/g, '')
 //       .trim();
 //     return '$' + (+readyElement).toFixed(2);
 //   });
